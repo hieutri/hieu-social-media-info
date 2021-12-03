@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+}
+.social-media-icon a{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px 20px;
+}
+.social-media-icon a:hover{
+    transition: ease-in-out 0.4s;
+}
+.social-media-icon a i{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.social-media-icon a p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+#facebook{background-color: skyblue;}
+#facebook:hover{
+    background: rgb(50, 135, 245);
+}
+#youtube{background-color: rgb(255, 83, 83);}
+#youtube:hover{
+    box-shadow:  inset 0px 0px 0px 300px rgb(255, 1, 1);
+}
+#steam{background-color: #2a475e;}
+#steam:hover{
+    background: #1b2838;
+}
+#github{background-color: rgb(51, 51, 51);}
+#github:hover{
+    background: #000;
+}
+.header-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.max-width{
+    width: 80%;
+}
+.header-content{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.header-tittle{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+}
+/* responsive */
+@media screen and (max-width: 800px){
+    #github{
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width: 515px){
+    .header-tittle{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 415px){
+    .header-tittle{
+        font-size: 1.5rem;
+    }
+    .header-content{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 370px){
+    .social-media-icon a{
+        margin: 5px 0px;
+    }
+}
