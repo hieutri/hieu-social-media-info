@@ -70,11 +70,17 @@
     }
 }
 @media screen and (max-width: 515px){
+    .social-media-icon a{
+        margin: 5px 0px;
+    }
     .header-tittle{
         font-size: 2rem;
     }
 }
 @media screen and (max-width: 415px){
+    .social-media-icon a{
+        margin: 5px 0px;
+    }
     .header-tittle{
         font-size: 1.5rem;
     }
